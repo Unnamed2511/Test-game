@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2454590981118297121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1109919062455109011}
+  - component: {fileID: 1587639309802155366}
+  - component: {fileID: 4421573457632440183}
+  m_Layer: 0
+  m_Name: Rifle  View Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1109919062455109011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2454590981118297121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.413, y: -0.133, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8576906208487158987}
+  m_Father: {fileID: 3381444996946647615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1587639309802155366
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2454590981118297121}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a9f84881abde25b48904c0ff67bca145, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -144335857, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &4421573457632440183
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2454590981118297121}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 616294fcbf576e24b8dcee1b751810a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2495117457200155617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3381444996946647615}
+  - component: {fileID: 4541688206529908958}
+  - component: {fileID: 2123370924198991630}
+  - component: {fileID: -8463334664233024536}
+  m_Layer: 0
+  m_Name: Rifle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3381444996946647615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2495117457200155617}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00000002125632, y: -0.138, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1109919062455109011}
+  m_F23 13:18:35] CSystemManagerCheckForUpdateJob: up to date
+[2024-03-23 13:18:35] CSystemManagerCheckForUpdateJob: bAvailable=0
+
+
+[2024-03-23 17:34:58] Client version: 1709846872
+[2024-03-23 17:34:58] Initializing System Manager
+[2024-03-23 17:34:58] Night mode active on resume 0
+[2024-03-23 17:34:58] Initialized battery manager with query mode: 1 interval: 2000000
+[2024-03-23 17:34:58] wifi power management: 1
+[2024-03-23 17:34:58] Fan control available: 0 current: 0
+[2024-03-23 17:36:59] CSystemManager::PeriodicUpdateCheck: starting periodic update check
+[2024-03-23 17:36:59] CSystemManagerCheckForUpdateJob: starting
+[2024-03-23 17:36:59] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: starting check
+[2024-03-23 17:36:59] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: requesting update check
+[2024-03-23 17:37:00] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: update check success: available:0
+[2024-03-23 17:37:00] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateOS: skipping OS update for non-steamos platforms
+[2024-03-23 17:37:00] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateBIOS: skipping BIOS update for non-steamos platforms
+[2024-03-23 17:37:00] CSystemManagerCheckForUpdateJob: up to date
+[2024-03-23 17:37:00] CSystemManagerCheckForUpdateJob: bAvailable=0
+
+
+[2024-03-23 18:32:14] Client version: 1709846872
+[2024-03-23 18:32:14] Initializing System Manager
+[2024-03-23 18:32:14] Night mode active on resume 0
+[2024-03-23 18:32:14] Initialized battery manager with query mode: 1 interval: 2000000
+[2024-03-23 18:32:14] wifi power management: 1
+[2024-03-23 18:32:14] Fan control available: 0 current: 0
+[2024-03-23 18:34:15] CSystemManager::PeriodicUpdateCheck: starting periodic update check
+[2024-03-23 18:34:15] CSystemManagerCheckForUpdateJob: starting
+[2024-03-23 18:34:15] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: starting check
+[2024-03-23 18:34:15] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: requesting update check
+[2024-03-23 18:34:17] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: update check success: available:0
+[2024-03-23 18:34:17] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateOS: skipping OS update for non-steamos platforms
+[2024-03-23 18:34:17] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateBIOS: skipping BIOS update for non-steamos platforms
+[2024-03-23 18:34:17] CSystemManagerCheckForUpdateJob: up to date
+[2024-03-23 18:34:17] CSystemManagerCheckForUpdateJob: bAvailable=0
+
+
+[2024-03-24 09:06:29] Client version: 1709846872
+[2024-03-24 09:06:29] Initializing System Manager
+[2024-03-24 09:06:29] Night mode active on resume 0
+[2024-03-24 09:06:29] Initialized battery manager with query mode: 1 interval: 2000000
+[2024-03-24 09:06:29] wifi power management: 1
+[2024-03-24 09:06:29] Fan control available: 0 current: 0
+[2024-03-24 09:08:30] CSystemManager::PeriodicUpdateCheck: starting periodic update check
+[2024-03-24 09:08:30] CSystemManagerCheckForUpdateJob: starting
+[2024-03-24 09:08:30] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: starting check
+[2024-03-24 09:08:30] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: requesting update check
+[2024-03-24 09:08:31] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateSteamClient: update check success: available:0
+[2024-03-24 09:08:31] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateOS: skipping OS update for non-steamos platforms
+[2024-03-24 09:08:31] CSystemManagerCheckForUpdateJob::YieldingCheckForUpdateBIOS: skipping BIOS update for non-steamos platforms
+[2024-03-24 09:08:31] CSystemManagerCheckForUpdateJob: up to date
+[2024-03-24 09:08:31] CSystemManagerCheckForUpdateJob: bAvailable=0
+
+
+[2024-03-24 15:06:22] Client version: 1709846872
+[2024-03-24 15:06:22] Initializing System Manager
+[2024-03-24 15:06:22] Night mode active on resume 0
+[2024-03-24 15:06:22] Initialized battery manager with query modon: 6
+  m_Component:
+  - component: {fileID: 8576906208487158987}
+  m_Layer: 0
+  m_Name: Bullet Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8576906208487158987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928957519316906970}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.787, y: 0.106, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1109919062455109011}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
